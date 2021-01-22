@@ -23,9 +23,10 @@ header{
     font-family: var(--font);
 }
 main{
-    /* display: flex;
+    /* display: flex;*/
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+    flex-direction: column;
     position: absolute;
     top: 15%;
     /* left: 5vw; */
@@ -34,6 +35,11 @@ main{
     width: 90vw;
     height: 60vh;
     background-color: var(--color-bg-main);
+}
+.btn{
+    /* position: absolute; */
+    /* bottom: 0; */
+    padding: 18px 32px;
 }
 footer{
     display: flex;
