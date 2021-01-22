@@ -80,6 +80,9 @@ footer{
         height: 60vh;
         background-color: var(--color-bg-main);
     }
+    .btn{
+        margin-bottom: 10px;
+    }
     footer{
         width: 100vw;
         height: 60px;
