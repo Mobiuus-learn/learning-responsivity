@@ -70,14 +70,26 @@ footer{
         justify-content: center;
         padding-bottom: 15px;
     }
-    main{
+    
+    }
+    .credits-link{
+        text-decoration: none;
+        padding: 5px 10px;
+        background-color: aquamarine;
+        position: absolute;
+        /* float: right; */
+        bottom: 15px;
+        right: 5px;
+        z-index: 2;
+    }
+    /* main{
         display: flex;
         justify-content: center;
         align-items: center;
         position: absolute;
         top: 15%;
         left: 5vw;
-    }
+    } */
     .container{
         width: 90vw;
         height: 60vh;
@@ -87,6 +99,7 @@ footer{
         margin-bottom: 10px;
     }
     footer{
+        text-align: center;
         width: 100vw;
         height: 60px;
         background-color: var(--color-bg-main);
@@ -94,6 +107,7 @@ footer{
         bottom: 0;
         color: white;
         font-size: 0.8rem;
+        z-index: 1;
     }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
